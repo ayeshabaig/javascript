@@ -15,3 +15,10 @@ functon greetStudent(student) {
     'Hello, ${student.name}'
     )
   }
+ function timeRemaining(timeElapsed, endTime) {
+    return endTime - timeElapsed;
+  }
+   var left = timezRemaining(42,140);
+    
+    left;  //198
+    
