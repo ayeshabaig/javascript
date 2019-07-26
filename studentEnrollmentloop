@@ -10,3 +10,8 @@ for (let i = 0; i < students.length; i++) {
     let student = students.pop();
     greetStudent(student);
   }
+functon greetStudent(student) {
+    console.log(
+    'Hello, ${student.name}'
+    )
+  }
