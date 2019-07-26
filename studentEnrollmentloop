@@ -1,0 +1,8 @@
+var Students = [/*..*/];
+
+for (let i = 0; i < students.length; i++) {
+      greetStudent( students[i] );
+  
+  for  (let students of students) {
+        greetStudent( student)
+  }
