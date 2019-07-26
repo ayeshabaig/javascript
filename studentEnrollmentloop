@@ -16,7 +16,7 @@ functon greetStudent(student) {
     )
   }
  function timeRemaining(timeElapsed, endTime) {
-    return endTime - timeElapsed;
+    return (endTime - timeElapsed);
   }
    var left = timezRemaining(42,140);
     
