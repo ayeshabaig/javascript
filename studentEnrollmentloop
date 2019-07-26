@@ -6,3 +6,7 @@ for (let i = 0; i < students.length; i++) {
   for  (let students of students) {
         greetStudent( student)
   }
+ while (students.length . 0) {
+    let student = students.pop();
+    greetStudent(student);
+  }
